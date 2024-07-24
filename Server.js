@@ -1,0 +1,50 @@
+let itemsType="Mobiles"
+let company="Apple"
+let iPhoneModels = [
+    { model: "iPhone", year: 2007 },
+    { model: "iPhone 3G", year: 2008 },
+    { model: "iPhone 3GS", year: 2009 },
+    { model: "iPhone 4", year: 2010 },
+    { model: "iPhone 4S", year: 2011 },
+    { model: "iPhone 5", year: 2012 },
+    { model: "iPhone 5C", year: 2013 },
+    { model: "iPhone 5S", year: 2013 },
+    { model: "iPhone 6", year: 2014 },
+    { model: "iPhone 6 Plus", year: 2014 },
+    { model: "iPhone 6S", year: 2015 },
+    { model: "iPhone 6S Plus", year: 2015 },
+    { model: "iPhone SE (1st generation)", year: 2016 },
+    { model: "iPhone 7", year: 2016 },
+    { model: "iPhone 7 Plus", year: 2016 },
+    { model: "iPhone 8", year: 2017 },
+    { model: "iPhone 8 Plus", year: 2017 },
+    { model: "iPhone X", year: 2017 },
+    { model: "iPhone XS", year: 2018 },
+    { model: "iPhone XS Max", year: 2018 },
+    { model: "iPhone XR", year: 2018 },
+    { model: "iPhone 11", year: 2019 },
+    { model: "iPhone 11 Pro", year: 2019 },
+    { model: "iPhone 11 Pro Max", year: 2019 },
+    { model: "iPhone SE (2nd generation)", year: 2020 },
+    { model: "iPhone 12", year: 2020 },
+    { model: "iPhone 12 Mini", year: 2020 },
+    { model: "iPhone 12 Pro", year: 2020 },
+    { model: "iPhone 12 Pro Max", year: 2020 },
+    { model: "iPhone 13", year: 2021 },
+    { model: "iPhone 13 Mini", year: 2021 },
+    { model: "iPhone 13 Pro", year: 2021 },
+    { model: "iPhone 13 Pro Max", year: 2021 },
+    { model: "iPhone SE (3rd generation)", year: 2022 },
+    { model: "iPhone 14", year: 2022 },
+    { model: "iPhone 14 Plus", year: 2022 },
+    { model: "iPhone 14 Pro", year: 2022 },
+    { model: "iPhone 14 Pro Max", year: 2022 },
+    { model: "iPhone 15", year: 2023 },
+    { model: "iPhone 15 Plus", year: 2023 },
+    { model: "iPhone 15 Pro", year: 2023 },
+    { model: "iPhone 15 Pro Max", year: 2023 }
+  ];
+  let mobileFunction=()=>{
+    console.log(iPhoneModels)
+  }
+  export {itemsType,company,mobileFunction}
